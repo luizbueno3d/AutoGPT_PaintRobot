@@ -1,0 +1,9 @@
+To install Git on a Raspberry Pi 4 using `sudo apt install git`, follow these steps:
+
+1. Open up a terminal window on your Raspberry Pi 4.
+2. Log in as root or a user with sudo privileges.
+3. Enter the following command: `sudo apt update`
+4. After the update is complete, enter the following command: `sudo apt install git`
+5. The installation will begin, and you will be prompted to confirm the installation.
+6. Type "Y" and hit enter to confirm the installation.
+7. Once the installation is complete, you can verify if Git has been installed properly by typing `git --version` in the terminal window.

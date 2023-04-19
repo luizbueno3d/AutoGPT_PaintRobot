@@ -1,0 +1,9 @@
+G90 ; Set coordinates to absolute
+G21 ; Set units to mm
+G01 X0 Y0 Z0 F3000 ; Rapid to home position
+G01 X50 Y50 Z50 F3000 ; Move to starting position
+G01 X100 Y100 Z50 F2000 ; Move along first path
+G01 X150 Y150 Z50 F2000 ; Move along second path
+G01 X0 Y0 Z50 F2000 ; Move along third path
+G01 X50 Y50 Z50 F2000 ; Move along fourth path
+G01 X100 Y100 Z50 F2000 ; Move along fifth path

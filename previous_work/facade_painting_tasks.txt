@@ -1,0 +1,5 @@
+- Design the GUI application that controls the facade-painting robot
+- Control the robot using GRBL code from a separate local file
+- Access the AI camera feed and analyze paint coverage and map the facade
+- Minimize paint consumption and maximize speed through optimization
+- Develop a robust system adaptable to various painting scenarios.

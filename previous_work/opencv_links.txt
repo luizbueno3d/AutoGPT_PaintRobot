@@ -1,0 +1,8 @@
+https://docs.opencv.org/4.x/d5/de5/tutorial_py_setup_in_windows.html
+https://learnopencv.com/install-opencv-on-windows/
+https://pypi.org/project/opencv-python/
+https://www.tutorialspoint.com/how-to-install-opencv-in-python
+https://www.geeksforgeeks.org/how-to-install-opencv-for-python-in-windows/
+https://stackoverflow.com/questions/51853018/how-do-i-install-opencv-using-pip
+https://www.geeksforgeeks.org/opencv-python-tutorial/
+https://pythonprogramming.net/loading-images-python-opencv-tutorial/

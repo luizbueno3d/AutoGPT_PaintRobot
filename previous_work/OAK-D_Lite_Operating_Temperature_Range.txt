@@ -1,0 +1,1 @@
+The operating temperature range of the Robotics Vision Core 2 for OAK-D-Lite is -40 °C to 105 °C for the die temperature and 0 °C to +50 °C for the stable image temperature of the camera sensor.

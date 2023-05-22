@@ -39,7 +39,7 @@ class RobotControl:
     def __init__(self, baudrate=115200, port=None):
         print("Creating RobotControl object...")
         if port is None:
-            port = find_serial_port()
+            port = find_serial_ports()
             if port is None:
                 raise Exception("No suitable serial port found.")
 

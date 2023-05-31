@@ -83,7 +83,7 @@ class RobotControl:
         if self.serial_connection is not None and self.serial_connection.is_open:
             try:
                 self.serial_connection.write(f"{command}\n".encode())
-                time.sleep(1)  # Wait for 1 second
+                # time.sleep(1)  # Wait for 1 second
                 response = self.serial_connection.readline().decode().strip()
                 print(f"Sent: {command}, Received: {response}")
             except Exception as e:
@@ -298,11 +298,11 @@ class MainWindow(QMainWindow):
         # Update the QLabel widget with the command history
         self.command_display.setText('\n'.join(command_history))
 
-
+#
     def initialize_robot_control(self):
         try:
             self.robot_control.disconnect()
-            self.robot_control = RobotControl(port=self.port_selector.currentText(), baudrate=115200, main_window=self)
+            self.robot_control = RobotControl(port=self.port_selector.currentText(), baudrate=115200)
             self.update_command_display(self.robot_control.command_history)
         except Exception as e:
             QMessageBox.critical(self, "Error", str(e))

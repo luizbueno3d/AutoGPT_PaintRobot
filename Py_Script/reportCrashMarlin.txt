@@ -1,33 +1,5 @@
-Compiling .pio/build/LPC1768/src/src/HAL/LPC1768/HAL.cpp.o
-Compiling .pio/build/LPC1768/src/src/HAL/LPC1768/HAL_SPI.cpp.o
-Compiling .pio/build/LPC1768/src/src/HAL/LPC1768/MarlinSerial.cpp.o
-Compiling .pio/build/LPC1768/src/src/HAL/LPC1768/MinSerial.cpp.o
-Compiling .pio/build/LPC1768/src/src/HAL/LPC1768/eeprom_flash.cpp.o
-Compiling .pio/build/LPC1768/src/src/HAL/LPC1768/eeprom_sdcard.cpp.o
-Compiling .pio/build/LPC1768/src/src/HAL/LPC1768/eeprom_wired.cpp.o
-Compiling .pio/build/LPC1768/src/src/HAL/LPC1768/fast_pwm.cpp.o
 In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
                  from Marlin/src/HAL/LPC1768/HAL.cpp:24:
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:1681:4: error: #error "CLASSIC_JERK is required for DELTA and SCARA."
- 1681 |   #error "CLASSIC_JERK is required for DELTA and SCARA."
-      |    ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2474:4: error: #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
- 2474 |   #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
-      |    ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2669:6: error: #error "TEMP_SENSOR_0 is required if there are any extruders."
- 2669 |     #error "TEMP_SENSOR_0 is required if there are any extruders."
-      |      ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2742:8: error: #error "Enable USE_XMIN_PLUG when homing X to MIN."
- 2742 |       #error "Enable USE_XMIN_PLUG when homing X to MIN."
-      |        ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2778:6: error: #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
- 2778 |     #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
-      |      ^~~~~
-In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
-                 from Marlin/src/HAL/LPC1768/HAL_SPI.cpp:51:
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:1681:4: error: #error "CLASSIC_JERK is required for DELTA and SCARA."
- 1681 |   #error "CLASSIC_JERK is required for DELTA and SCARA."
-      |    ^~~~~
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2474:4: error: #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
  2474 |   #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
       |    ^~~~~
@@ -36,49 +8,46 @@ Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2669:6: error: #error "TEMP_SENSO
       |      ^~~~~
 In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
                  from Marlin/src/HAL/LPC1768/MarlinSerial.cpp:26:
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:1681:4: error: #error "CLASSIC_JERK is required for DELTA and SCARA."
- 1681 |   #error "CLASSIC_JERK is required for DELTA and SCARA."
-      |    ^~~~~
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2474:4: error: #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
  2474 |   #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
       |    ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2742:8: error: #error "Enable USE_XMIN_PLUG when homing X to MIN."
- 2742 |       #error "Enable USE_XMIN_PLUG when homing X to MIN."
-      |        ^~~~~
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2669:6: error: #error "TEMP_SENSOR_0 is required if there are any extruders."
  2669 |     #error "TEMP_SENSOR_0 is required if there are any extruders."
-      |      ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2778:6: error: #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
- 2778 |     #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
-      |      ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2742:8: error: #error "Enable USE_XMIN_PLUG when homing X to MIN."
- 2742 |       #error "Enable USE_XMIN_PLUG when homing X to MIN."
-      |        ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2778:6: error: #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
- 2778 |     #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
       |      ^~~~~
 In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
-                 from Marlin/src/HAL/LPC1768/eeprom_flash.cpp:39:
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:1681:4: error: #error "CLASSIC_JERK is required for DELTA and SCARA."
- 1681 |   #error "CLASSIC_JERK is required for DELTA and SCARA."
-      |    ^~~~~
+                 from Marlin/src/HAL/LPC1768/HAL_SPI.cpp:51:
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2474:4: error: #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
  2474 |   #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
       |    ^~~~~
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2669:6: error: #error "TEMP_SENSOR_0 is required if there are any extruders."
  2669 |     #error "TEMP_SENSOR_0 is required if there are any extruders."
-      |      ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2742:8: error: #error "Enable USE_XMIN_PLUG when homing X to MIN."
- 2742 |       #error "Enable USE_XMIN_PLUG when homing X to MIN."
-      |        ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2778:6: error: #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
- 2778 |     #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
       |      ^~~~~
 In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
                  from Marlin/src/HAL/LPC1768/MinSerial.cpp:24:
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:1681:4: error: #error "CLASSIC_JERK is required for DELTA and SCARA."
- 1681 |   #error "CLASSIC_JERK is required for DELTA and SCARA."
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2474:4: error: #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
+ 2474 |   #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
       |    ^~~~~
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2669:6: error: #error "TEMP_SENSOR_0 is required if there are any extruders."
+ 2669 |     #error "TEMP_SENSOR_0 is required if there are any extruders."
+      |      ^~~~~
+In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
+                 from Marlin/src/HAL/LPC1768/eeprom_flash.cpp:39:
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2474:4: error: #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
+ 2474 |   #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
+      |    ^~~~~
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2669:6: error: #error "TEMP_SENSOR_0 is required if there are any extruders."
+ 2669 |     #error "TEMP_SENSOR_0 is required if there are any extruders."
+      |      ^~~~~
+In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
+                 from Marlin/src/HAL/LPC1768/eeprom_wired.cpp:24:
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2474:4: error: #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
+ 2474 |   #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
+      |    ^~~~~
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2669:6: error: #error "TEMP_SENSOR_0 is required if there are any extruders."
+ 2669 |     #error "TEMP_SENSOR_0 is required if there are any extruders."
+      |      ^~~~~
+In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
+                 from Marlin/src/HAL/LPC1768/fast_pwm.cpp:24:
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2474:4: error: #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
  2474 |   #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
       |    ^~~~~
@@ -87,74 +56,23 @@ Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2669:6: error: #error "TEMP_SENSO
       |      ^~~~~
 In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
                  from Marlin/src/HAL/LPC1768/eeprom_sdcard.cpp:29:
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:1681:4: error: #error "CLASSIC_JERK is required for DELTA and SCARA."
- 1681 |   #error "CLASSIC_JERK is required for DELTA and SCARA."
-      |    ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2742:8: error: #error "Enable USE_XMIN_PLUG when homing X to MIN."
- 2742 |       #error "Enable USE_XMIN_PLUG when homing X to MIN."
-      |        ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2474:4: error: #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
- 2474 |   #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
-      |    ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2778:6: error: #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
- 2778 |     #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
-      |      ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2669:6: error: #error "TEMP_SENSOR_0 is required if there are any extruders."
- 2669 |     #error "TEMP_SENSOR_0 is required if there are any extruders."
-      |      ^~~~~
-In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
-                 from Marlin/src/HAL/LPC1768/eeprom_wired.cpp:24:
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:1681:4: error: #error "CLASSIC_JERK is required for DELTA and SCARA."
- 1681 |   #error "CLASSIC_JERK is required for DELTA and SCARA."
-      |    ^~~~~
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2474:4: error: #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
  2474 |   #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
       |    ^~~~~
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2669:6: error: #error "TEMP_SENSOR_0 is required if there are any extruders."
  2669 |     #error "TEMP_SENSOR_0 is required if there are any extruders."
       |      ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2742:8: error: #error "Enable USE_XMIN_PLUG when homing X to MIN."
- 2742 |       #error "Enable USE_XMIN_PLUG when homing X to MIN."
-      |        ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2778:6: error: #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
- 2778 |     #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
-      |      ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2742:8: error: #error "Enable USE_XMIN_PLUG when homing X to MIN."
- 2742 |       #error "Enable USE_XMIN_PLUG when homing X to MIN."
-      |        ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2778:6: error: #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
- 2778 |     #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
-      |      ^~~~~
-In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
-                 from Marlin/src/HAL/LPC1768/fast_pwm.cpp:24:
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:1681:4: error: #error "CLASSIC_JERK is required for DELTA and SCARA."
- 1681 |   #error "CLASSIC_JERK is required for DELTA and SCARA."
-      |    ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2474:4: error: #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
- 2474 |   #error "TEMP_0_PIN (required for TEMP_SENSOR_0) not defined for this board."
-      |    ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2669:6: error: #error "TEMP_SENSOR_0 is required if there are any extruders."
- 2669 |     #error "TEMP_SENSOR_0 is required if there are any extruders."
-      |      ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2742:8: error: #error "Enable USE_XMIN_PLUG when homing X to MIN."
- 2742 |       #error "Enable USE_XMIN_PLUG when homing X to MIN."
-      |        ^~~~~
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:2778:6: error: #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
- 2778 |     #error "Enable USE_ZMIN_PLUG when homing Z to MIN."
-      |      ^~~~~
-*** [.pio/build/LPC1768/src/src/HAL/LPC1768/MarlinSerial.cpp.o] Error 1
-*** [.pio/build/LPC1768/src/src/HAL/LPC1768/MinSerial.cpp.o] Error 1
 *** [.pio/build/LPC1768/src/src/HAL/LPC1768/HAL.cpp.o] Error 1
 *** [.pio/build/LPC1768/src/src/HAL/LPC1768/HAL_SPI.cpp.o] Error 1
+*** [.pio/build/LPC1768/src/src/HAL/LPC1768/MarlinSerial.cpp.o] Error 1
+*** [.pio/build/LPC1768/src/src/HAL/LPC1768/fast_pwm.cpp.o] Error 1
+*** [.pio/build/LPC1768/src/src/HAL/LPC1768/MinSerial.cpp.o] Error 1
+*** [.pio/build/LPC1768/src/src/HAL/LPC1768/eeprom_sdcard.cpp.o] Error 1
 *** [.pio/build/LPC1768/src/src/HAL/LPC1768/eeprom_wired.cpp.o] Error 1
 *** [.pio/build/LPC1768/src/src/HAL/LPC1768/eeprom_flash.cpp.o] Error 1
-*** [.pio/build/LPC1768/src/src/HAL/LPC1768/eeprom_sdcard.cpp.o] Error 1
-*** [.pio/build/LPC1768/src/src/HAL/LPC1768/fast_pwm.cpp.o] Error 1
-============================ [FAILED] Took 1.74 seconds ============================
+============================ [FAILED] Took 1.82 seconds ============================
 
 Environment    Status    Duration
 -------------  --------  ------------
-LPC1768        FAILED    00:00:01.742
-======================= 1 failed, 0 succeeded in 00:00:01.742 =======================
-
- *  The terminal process "platformio 'run'" terminated with exit code: 1.
+LPC1768        FAILED    00:00:01.823
+======================= 1 failed, 0 succeeded in 00:00:01.823 =======================

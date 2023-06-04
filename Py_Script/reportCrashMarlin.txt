@@ -1,35 +1,69 @@
 In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
+                 from Marlin/src/HAL/LPC1768/eeprom_wired.cpp:24:
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:682:26: error: static assertion failed: AXIS_RELATIVE_MODES must contain X Y Z elements.
+  682 | static_assert(COUNT(arm) == LOGICAL_AXES, "AXIS_RELATIVE_MODES must contain " _LOGICAL_AXES_STR "elements.");
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3773:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+0)
+ 3773 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3778:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+0)
+ 3778 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3783:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+0)
+ 3783 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3814:37: error: static assertion failed: MANUAL_FEEDRATE has too many elements. X Y Z elements only.
+ 3814 |   static_assert(COUNT(sanity_arr_8) <= LOGICAL_AXES, "MANUAL_FEEDRATE has too many elements. " _LOGICAL_AXES_STR "elements only.");
+In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
+                 from Marlin/src/HAL/LPC1768/MarlinSerial.cpp:26:
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:682:26: error: static assertion failed: AXIS_RELATIVE_MODES must contain X Y Z elements.
+  682 | static_assert(COUNT(arm) == LOGICAL_AXES, "AXIS_RELATIVE_MODES must contain " _LOGICAL_AXES_STR "elements.");
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3773:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+0)
+ 3773 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
                  from Marlin/src/HAL/LPC1768/HAL_SPI.cpp:51:
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:682:26: error: static assertion failed: AXIS_RELATIVE_MODES must contain X Y Z elements.
   682 | static_assert(COUNT(arm) == LOGICAL_AXES, "AXIS_RELATIVE_MODES must contain " _LOGICAL_AXES_STR "elements.");
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3773:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+0)
+ 3773 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3778:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+0)
+ 3778 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3783:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+0)
+ 3783 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3814:37: error: static assertion failed: MANUAL_FEEDRATE has too many elements. X Y Z elements only.
+ 3814 |   static_assert(COUNT(sanity_arr_8) <= LOGICAL_AXES, "MANUAL_FEEDRATE has too many elements. " _LOGICAL_AXES_STR "elements only.");
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3778:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+0)
+ 3778 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
 In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
                  from Marlin/src/HAL/LPC1768/HAL.cpp:24:
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:682:26: error: static assertion failed: AXIS_RELATIVE_MODES must contain X Y Z elements.
   682 | static_assert(COUNT(arm) == LOGICAL_AXES, "AXIS_RELATIVE_MODES must contain " _LOGICAL_AXES_STR "elements.");
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3773:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+0)
  3773 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3773:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+0)
- 3773 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3778:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+0)
- 3778 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3783:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+0)
- 3783 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3778:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+0)
- 3778 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3783:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+0)
  3783 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3814:37: error: static assertion failed: MANUAL_FEEDRATE has too many elements. X Y Z elements only.
  3814 |   static_assert(COUNT(sanity_arr_8) <= LOGICAL_AXES, "MANUAL_FEEDRATE has too many elements. " _LOGICAL_AXES_STR "elements only.");
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3778:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+0)
+ 3778 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3783:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+0)
+ 3783 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3814:37: error: static assertion failed: MANUAL_FEEDRATE has too many elements. X Y Z elements only.
  3814 |   static_assert(COUNT(sanity_arr_8) <= LOGICAL_AXES, "MANUAL_FEEDRATE has too many elements. " _LOGICAL_AXES_STR "elements only.");
 In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
                  from Marlin/src/HAL/LPC1768/MinSerial.cpp:24:
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:682:26: error: static assertion failed: AXIS_RELATIVE_MODES must contain X Y Z elements.
   682 | static_assert(COUNT(arm) == LOGICAL_AXES, "AXIS_RELATIVE_MODES must contain " _LOGICAL_AXES_STR "elements.");
+In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
+                 from Marlin/src/HAL/LPC1768/eeprom_sdcard.cpp:29:
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:682:26: error: static assertion failed: AXIS_RELATIVE_MODES must contain X Y Z elements.
+  682 | static_assert(COUNT(arm) == LOGICAL_AXES, "AXIS_RELATIVE_MODES must contain " _LOGICAL_AXES_STR "elements.");
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3773:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+0)
+ 3773 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3773:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+0)
  3773 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3778:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+0)
  3778 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3778:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+0)
+ 3778 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3783:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+0)
+ 3783 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3783:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+0)
  3783 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3814:37: error: static assertion failed: MANUAL_FEEDRATE has too many elements. X Y Z elements only.
@@ -46,6 +80,8 @@ Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3783:35: error: static assertion 
  3783 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3814:37: error: static assertion failed: MANUAL_FEEDRATE has too many elements. X Y Z elements only.
  3814 |   static_assert(COUNT(sanity_arr_8) <= LOGICAL_AXES, "MANUAL_FEEDRATE has too many elements. " _LOGICAL_AXES_STR "elements only.");
+Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3814:37: error: static assertion failed: MANUAL_FEEDRATE has too many elements. X Y Z elements only.
+ 3814 |   static_assert(COUNT(sanity_arr_8) <= LOGICAL_AXES, "MANUAL_FEEDRATE has too many elements. " _LOGICAL_AXES_STR "elements only.");
 In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
                  from Marlin/src/HAL/LPC1768/fast_pwm.cpp:24:
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:682:26: error: static assertion failed: AXIS_RELATIVE_MODES must contain X Y Z elements.
@@ -58,53 +94,17 @@ Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3783:35: error: static assertion 
  3783 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
 Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3814:37: error: static assertion failed: MANUAL_FEEDRATE has too many elements. X Y Z elements only.
  3814 |   static_assert(COUNT(sanity_arr_8) <= LOGICAL_AXES, "MANUAL_FEEDRATE has too many elements. " _LOGICAL_AXES_STR "elements only.");
-In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
-                 from Marlin/src/HAL/LPC1768/eeprom_sdcard.cpp:29:
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:682:26: error: static assertion failed: AXIS_RELATIVE_MODES must contain X Y Z elements.
-  682 | static_assert(COUNT(arm) == LOGICAL_AXES, "AXIS_RELATIVE_MODES must contain " _LOGICAL_AXES_STR "elements.");
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3773:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+0)
- 3773 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3778:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+0)
- 3778 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3783:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+0)
- 3783 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3814:37: error: static assertion failed: MANUAL_FEEDRATE has too many elements. X Y Z elements only.
- 3814 |   static_assert(COUNT(sanity_arr_8) <= LOGICAL_AXES, "MANUAL_FEEDRATE has too many elements. " _LOGICAL_AXES_STR "elements only.");
-*** [.pio/build/LPC1768/src/src/HAL/LPC1768/HAL_SPI.cpp.o] Error 1
-In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
-                 from Marlin/src/HAL/LPC1768/eeprom_wired.cpp:24:
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:682:26: error: static assertion failed: AXIS_RELATIVE_MODES must contain X Y Z elements.
-  682 | static_assert(COUNT(arm) == LOGICAL_AXES, "AXIS_RELATIVE_MODES must contain " _LOGICAL_AXES_STR "elements.");
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3773:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+0)
- 3773 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
-*** [.pio/build/LPC1768/src/src/HAL/LPC1768/eeprom_flash.cpp.o] Error 1
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3778:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+0)
- 3778 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3783:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+0)
- 3783 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3814:37: error: static assertion failed: MANUAL_FEEDRATE has too many elements. X Y Z elements only.
- 3814 |   static_assert(COUNT(sanity_arr_8) <= LOGICAL_AXES, "MANUAL_FEEDRATE has too many elements. " _LOGICAL_AXES_STR "elements only.");
-In file included from Marlin/src/HAL/LPC1768/../../inc/MarlinConfig.h:49,
-                 from Marlin/src/HAL/LPC1768/MarlinSerial.cpp:26:
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:682:26: error: static assertion failed: AXIS_RELATIVE_MODES must contain X Y Z elements.
-  682 | static_assert(COUNT(arm) == LOGICAL_AXES, "AXIS_RELATIVE_MODES must contain " _LOGICAL_AXES_STR "elements.");
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3773:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+0)
- 3773 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3778:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+0)
- 3778 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3783:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+0)
- 3783 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
-Marlin/src/HAL/LPC1768/../../inc/SanityCheck.h:3814:37: error: static assertion failed: MANUAL_FEEDRATE has too many elements. X Y Z elements only.
- 3814 |   static_assert(COUNT(sanity_arr_8) <= LOGICAL_AXES, "MANUAL_FEEDRATE has too many elements. " _LOGICAL_AXES_STR "elements only.");
-*** [.pio/build/LPC1768/src/src/HAL/LPC1768/HAL.cpp.o] Error 1
-*** [.pio/build/LPC1768/src/src/HAL/LPC1768/MinSerial.cpp.o] Error 1
-*** [.pio/build/LPC1768/src/src/HAL/LPC1768/fast_pwm.cpp.o] Error 1
-*** [.pio/build/LPC1768/src/src/HAL/LPC1768/eeprom_sdcard.cpp.o] Error 1
 *** [.pio/build/LPC1768/src/src/HAL/LPC1768/eeprom_wired.cpp.o] Error 1
+*** [.pio/build/LPC1768/src/src/HAL/LPC1768/eeprom_sdcard.cpp.o] Error 1
 *** [.pio/build/LPC1768/src/src/HAL/LPC1768/MarlinSerial.cpp.o] Error 1
-============================ [FAILED] Took 1.80 seconds ============================
+*** [.pio/build/LPC1768/src/src/HAL/LPC1768/HAL.cpp.o] Error 1
+*** [.pio/build/LPC1768/src/src/HAL/LPC1768/HAL_SPI.cpp.o] Error 1
+*** [.pio/build/LPC1768/src/src/HAL/LPC1768/MinSerial.cpp.o] Error 1
+*** [.pio/build/LPC1768/src/src/HAL/LPC1768/eeprom_flash.cpp.o] Error 1
+*** [.pio/build/LPC1768/src/src/HAL/LPC1768/fast_pwm.cpp.o] Error 1
+============================== [FAILED] Took 1.86 seconds ==============================
 
 Environment    Status    Duration
 -------------  --------  ------------
-LPC1768        FAILED    00:00:01.796
-======================= 1 failed, 0 succeeded in 00:00:01.796 =======================
+LPC1768        FAILED    00:00:01.863
+======================== 1 failed, 0 succeeded in 00:00:01.863 ========================

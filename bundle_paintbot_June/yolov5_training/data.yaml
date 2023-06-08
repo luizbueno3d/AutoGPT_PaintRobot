@@ -1,0 +1,5 @@
+train: yolov5_training/dataset/train/
+val: yolov5_training/dataset/val/
+
+nc: 3
+names: ['wall', 'window', 'edge']

@@ -1,0 +1,3 @@
+The file "yolov5_training/dataset/train/labels" is not a code file, but a directory that will contain the label files for the training dataset. These label files will be generated during the dataset preparation process and will have a ".txt" extension. Each label file will correspond to an image in the "yolov5_training/dataset/train/images" directory and will contain the annotations for the objects (windows, walls, and edges) present in the image.
+
+As this is a directory and not a code file, there is no code to generate for this specific request. The process of creating and populating this directory with label files will be explained in the "readme.txt" file.

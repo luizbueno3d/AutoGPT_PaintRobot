@@ -1,0 +1,1 @@
+The file "yolov5_training/dataset/val/images" is not a code file, but a directory where validation images for the YOLOv5 training process will be stored. You should place the images of building walls, windows, and edges in this directory to be used for validation during the training process. There is no code to generate for this directory.

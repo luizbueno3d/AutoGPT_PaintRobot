@@ -1,0 +1,3 @@
+The `yolov5_training/dataset/train/images` directory is meant to store the training images for the YOLOv5 model. It is not a file that contains code. Instead, it is a folder where you should place the images of walls, windows, and edges that will be used to train the YOLOv5 model. 
+
+To prepare the dataset, you should collect images of walls, windows, and edges, and place them in the `yolov5_training/dataset/train/images` directory. Make sure the corresponding annotation files are placed in the `yolov5_training/dataset/train/labels` directory.

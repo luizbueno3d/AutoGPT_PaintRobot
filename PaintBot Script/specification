@@ -1,0 +1,28 @@
+Specification for Avoid Window Paint Spraying Robot Program (Revised)
+
+1. Program Overview:
+   The program should control a paint spraying robot to avoid painting windows and doors. It should interface with existing `paint.py` and `map.py` scripts and utilize four cameras positioned near the nozzle of the paint sprayer to detect and avoid windows and doors.
+
+2. Program Features:
+   - Initialize and configure four USB cameras compatible with OpenCV, positioned around the nozzle of the paint sprayer.
+   - Calibrate the cameras using a known reference object or pattern to ensure accurate distance measurements and tape detection.
+   - Continuously capture images from the four cameras as the robot moves.
+   - Process the images to detect the presence of striped tapes (green and red stripes) around windows and doors using adaptive color filtering, contour detection, and machine learning-based object detection.
+   - Implement detection logic based on the color sequence (red followed by green or vice versa) and distance to the tape.
+   - Interface with the `robot_control` class from `paint.py` and relevant functions from `map.py` to send G-code commands to the robot for controlling the paint sprayer based on the camera input.
+   - Log the robot's actions and any detections made by the cameras, as well as handle errors and implement fallback strategies.
+   - Thoroughly test the script in a controlled environment with various window and door configurations.
+
+3. Core Classes, Functions, and Methods:
+   - `Camera`: A class representing a camera, with methods for initialization, configuration, calibration, and image capture.
+   - `ImageProcessor`: A class for processing images, with methods for adaptive color filtering, contour detection, machine learning-based object detection, and tape identification.
+   - `RobotController`: A class for implementing the detection logic and interfacing with the `robot_control` class from `paint.py`, with methods for sending G-code commands to the robot based on the camera input.
+   - `LoggerAndErrorHandler`: A class for logging the robot's actions and detections, handling errors, and implementing fallback strategies, with methods for logging events, handling errors, and defining fallback actions.
+   - `TestEnvironment`: A class for setting up a controlled testing environment and validating the program's functionality.
+
+4. Non-standard Dependencies:
+   - OpenCV: A library for image processing, used for camera configuration, color filtering, contour detection, and object detection.
+   - NumPy: A library for numerical operations, used for calculations related to camera positioning and distance measurements.
+   - scikit-learn or TensorFlow: A library for machine learning, used for implementing machine learning-based object detection.
+
+With this revised specification, the program should be designed with robustness and reliability in mind, ensuring that it can effectively control the paint spraying robot in a real-world environment. All features should be clearly defined and thoroughly tested to ensure accurate and reliable performance.
